@@ -37,7 +37,7 @@ export default function NewsInfographic() {
 
   return (
     <Container>
-      <Heading>Infografis Dinas komunikasi, informatika dan persandian kota Ambon</Heading>
+      <Heading>Infografik Dinas kesehatan kota Ambon</Heading>
       <Content>
         <Swiper
           spaceBetween={50}

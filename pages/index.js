@@ -104,7 +104,7 @@ const BlockqouteItem = styled.div`
 `;
 
 const HeadlineWelcome = styled.div`
-  background-color: royalblue;
+  background-color: #4caf50;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -137,10 +137,10 @@ const HeadlineLink = styled.a`
 
   &:hover {
     background-color: white;
-    color: royalblue;
+    color: #4caf50;
 
     svg > path {
-      color: royalblue;
+      color: #4caf50;
     }
   }
   > svg {
@@ -158,7 +158,7 @@ const HeadlineLink = styled.a`
 
 
 const BlockTagHealdine = styled.span`
-  background-color: dodgerblue;
+  background-color: green;
   border-radius: 3px;
   padding: .3rem;
   margin-right: .3rem;
@@ -388,10 +388,10 @@ export default function Home(props) {
         </Container>
         <FlexCenter>
           <Container>
-              <Headline>Make Ambon Healthy, Safe, and Productive</Headline>
-              <SubHeadline><BlockTagHealdine>#kenaldulu</BlockTagHealdine> bersama Dinas Komunikasi, Informatika dan Persandian kota Ambon wujudkan Teknologi untuk semua.</SubHeadline>
+              <Headline>Ambon Sehat, Ambon Sejahtera</Headline>
+              <SubHeadline>Selamat Datang di Website Resmi Dinas Kesehatan kota Ambon. Mari Katong Lawan Covid-19 Sama-sama! #dirumahaja</SubHeadline>
               <center>
-                <HeadlineLink passHref href="/mengenal-kami/tentang">
+                <HeadlineLink passHref href="/profil/tentang-kami">
                   Mulai kenalan dulu
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />

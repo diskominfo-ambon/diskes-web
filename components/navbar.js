@@ -92,7 +92,7 @@ const NavbarItem = styled.li`
     ${
       props => props.active && `
         color: white;
-        background-color: dodgerblue;
+        background-color: green;
         // &::before {
         //   content: '';
         //   display: block;
@@ -131,47 +131,40 @@ export default function Navbar() {
     <Header>
       <ContainerFlexRow>
         <Content>
-          <NavbarBrand src="/static/img/kominfo.png" height={40} width={40} alt="logo kominfo"/>
+          <NavbarBrand src="/static/img/logo-diskes.png" height={40} width={40} alt="logo kominfo"/>
           <NavbarCollapse>
             <NavbarItem active={router.pathname === '/'}>
               <Link href="/" passHref>
                 Beranda
               </Link>
             </NavbarItem>
+            <NavbarItem  active={router.pathname === '/pengumuman'}>
+              <Link href="https://dinkes.malukuprov.go.id/page=covid19" passHref>#Info Covid</Link>
+            </NavbarItem>
             <NavbarItem
-              active={/mengenal-kami/.test(router.pathname)}
+              active={/profil/.test(router.pathname)}
             >
               <LinkDropdown
-                text="Mengenal kami"
+                text="Profil"
                 menus={[
-                  { to: '/mengenal-kami/tentang', text: 'Tentang'},
-                  { to: '/mengenal-kami/tugas', text: 'Tugas dan fungsi'},
-                  { to: '/mengenal-kami/command-center', text: 'Layanan Command Center'},
+                  { to: '/profil/tentang-kami', text: 'Tentang Kami'},
+                  { to: '/profil/sasaran', text: 'Sasaran'},
+                  { to: '/profil/pegawai', text: 'Profil Pegawai'},
                 ]}
               />
             </NavbarItem>
-            <NavbarItem  active={router.pathname === '/pengumuman'}>
-              <Link href="/pengumuman" passHref>Pengumuman</Link>
-            </NavbarItem>
-            <NavbarItem active={/informasi/.test(router.pathname)}>
+            
+            <NavbarItem active={/pelayanan/.test(router.pathname)}>
               <LinkDropdown
-                text="Kegiatan & Informasi"
+                text="Pelayanan"
                 menus={[
-                  { to: '/informasi/kegiatan', text: 'Kegiatan' },
-                  { to: '/informasi/agenda', text: 'Informasi agenda' }
+                  { to: '/pelayanan/maklumat-pelayanan', text: 'Maklumat Pelayanan' },
+                  { to: '/pelayanan/daftar-pelayanan', text: 'Daftar Pelayanan' }
                 ]}
               />
             </NavbarItem>
-            <NavbarItem>
-              <LinkDropdown
-                text="Layanan"
-                menus={[
-                  { blank: true, to: 'http://www.lapor.go.id', text: 'E-Lapor - Layanan lapor pengaduan masyarakat'},
-                  { blank: true, to: 'https://ambonaccess.id', text: 'Ambon Access'},
-                  { blank: true, to: 'http://dpmptsp.ambon.go.id', text: 'DPMPTSP - Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu'},
-                  { blank: true, to: '#', text: 'SIMAK - Sistem Informasi Manajemen Administrasi Kependudukan'},
-                ]}
-              />
+            <NavbarItem  active={router.pathname === '/berita'}>
+              <Link href="/berita" passHref>Kegiatan dan Berita</Link>
             </NavbarItem>
           </NavbarCollapse>
         </Content>
