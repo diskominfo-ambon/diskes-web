@@ -391,7 +391,7 @@ export default function Home(props) {
               <Headline>Ambon Sehat, Ambon Sejahtera</Headline>
               <SubHeadline>Selamat Datang di Website Resmi Dinas Kesehatan kota Ambon. Mari Katong Lawan Covid-19 Sama-sama! #dirumahaja</SubHeadline>
               <center>
-                <HeadlineLink passHref href="/profil/tentang-kami">
+                <HeadlineLink passHref href="/profil/tentang">
                   Mulai kenalan dulu
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
@@ -426,11 +426,11 @@ export default function Home(props) {
           </Blockqoute.Heading>
           <Blockqoute.Content>
             <BlockqouteContentText>
-            Dengan ini, kami menyatakan sanggup menyelenggarakan pelayanan sesuai standar pelayanan yang telah ditetapkan dan apabila tidak menepati janji ini, kami siap menerima sanksi sesuai peraturan perundangan-undangan yang berlaku.
+            Dengan ini kamu menyatakan sanggup menyelenggarakan pelayanan sesuai standar pelayanan, memberikan pelayanan sesuai kewajiban dan melakukan perbaikan secara terus menerus, serta bersedia menerima sanksi dan atau memberikan kompensasi apabila pelayanan yang diberikan tidak sesuai standar
             </BlockqouteContentText>
           </Blockqoute.Content>
           <Blockqoute.Caption>
-            Drs. J. R. ADRIAANSZ, M.Si - KEPALA DINAS KOMUNIKASI INFORMATIKA & PERSANDIAN KOTA AMBON
+            drg. WENDY PELUPESSY, M.Kes - KEPALA DINAS KESEHATAN  KOTA AMBON
           </Blockqoute.Caption>
         </BlockqouteItem>
       </Blockqoute>
@@ -453,7 +453,7 @@ export default function Home(props) {
 
 
       {/* Kegiatan & Pengumuman terbaru */}
-      <Section>
+      {/* <Section>
         <Container>
           <SectionHeading>Temukan informasi terbaru kami</SectionHeading>
           <SectionSubHeading>Informasi terbaru dari Dinas komunikasi, informatika dan persandian kota Ambon</SectionSubHeading>
@@ -491,7 +491,7 @@ export default function Home(props) {
           </SectionFlex>
         </Container>
       </Section>
-
+ */}
 
       <Footer>
         <Container>

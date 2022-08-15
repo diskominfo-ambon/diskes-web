@@ -16,7 +16,8 @@ const nextConfig = withTM({
   images: {
     domains: [
       "images.unsplash.com",
-      "cdn.weatherapi.com"
+      "cdn.weatherapi.com",
+      "dinkes.malukuprov.go.id",
     ]
   },
 });

@@ -8,31 +8,31 @@ export default function handler(req, res) {
       {
         id: 1,
         title: "Judul kegiatan",
-        picture_url: "https://images.unsplash.com/photo-1659225260593-f082454ca503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        picture_url: "https://dinkes.malukuprov.go.id/img/dokumen/1763856625.jpg",
         created_at: "Rabu 12 Agustus 2022",
       },
       {
         id: 2,
         title: "Judul kegiatan",
-        picture_url: "https://images.unsplash.com/photo-1659225260593-f082454ca503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        picture_url: "https://dinkes.malukuprov.go.id/img/dokumen/1763856625.jpg",
         created_at: "Rabu 12 Agustus 2022",
       },
       {
         id: 3,
         title: "Judul kegiatan",
-        picture_url: "https://images.unsplash.com/photo-1659225260593-f082454ca503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        picture_url: "https://dinkes.malukuprov.go.id/img/dokumen/341445894.jpg",
         created_at: "Rabu 12 Agustus 2022",
       },
       {
         id: 4,
         title: "Judul kegiatan",
-        picture_url: "https://images.unsplash.com/photo-1659225260593-f082454ca503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        picture_url: "https://dinkes.malukuprov.go.id/img/dokumen/1248504451.jpg",
         created_at: "Rabu 12 Agustus 2022",
       },
       {
         id: 5,
         title: "Judul kegiatan",
-        picture_url: "https://images.unsplash.com/photo-1659225260593-f082454ca503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        picture_url: "https://dinkes.malukuprov.go.id/img/dokumen/1601351656.jpg",
         created_at: "Rabu 12 Agustus 2022",
       },
     ]

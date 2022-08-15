@@ -147,9 +147,9 @@ export default function Navbar() {
               <LinkDropdown
                 text="Profil"
                 menus={[
-                  { to: '/profil/tentang-kami', text: 'Tentang Kami'},
-                  { to: '/profil/sasaran', text: 'Sasaran'},
-                  { to: '/profil/pegawai', text: 'Profil Pegawai'},
+                  { to: '/profil/tentang', text: 'Tentang Kami'},
+                  // { to: '/profil/sasaran', text: 'Sasaran'},
+                  // { to: '/profil/pegawai', text: 'Profil Pegawai'},
                 ]}
               />
             </NavbarItem>
@@ -158,8 +158,16 @@ export default function Navbar() {
               <LinkDropdown
                 text="Pelayanan"
                 menus={[
-                  { to: '/pelayanan/maklumat-pelayanan', text: 'Maklumat Pelayanan' },
-                  { to: '/pelayanan/daftar-pelayanan', text: 'Daftar Pelayanan' }
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/08/JENIS-PELAYANAN.pdf', text: 'JENIS PELAYANAN' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/08/Izin-Melalui-Portal-OSS.pdf', text: 'Izin Melalui Portal OSS' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/08/ligiene-Sanitasi.pdf', text: 'Ligiene Sanitasi' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/08/Menyerahkan-Surat-Rekoment.pdf', text: 'Menyerahkan Surat Rekoment' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/07/ALUR-SOP-DINKES-KOTA-AMBON.xlsx', text: 'ALUR SOP DINKES KOTA AMBON' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/07/ALUR-PELAYANAN-PENGADUAN-dikonversi-2.docx', text: 'ALUR PELAYANAN PENGADUAN' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/07/PENANGANAN-PENGADUAN-MASYARAKAT-SECARA-LANGSUNG.pdf', text: 'PENANGANAN PENGADUAN MASYARAKAT SECARA LANGSUNG' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/07/PENANGANAN-PENGADUAN-MASYARAKAT-SECARA-TIDAK.pdf', text: 'PENANGANAN PENGADUAN MASYARAKAT SECARA TIDAK' },
+                  { to: 'https://ambon.go.id/wp-content/uploads/2022/07/LAPORAN-SURVEi-KEPUASAN-MASY.doc', text: 'LAPORAN SURVEi KEPUASAN MASYARAKAT' },
+
                 ]}
               />
             </NavbarItem>
