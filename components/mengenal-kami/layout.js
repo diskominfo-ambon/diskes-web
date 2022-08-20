@@ -22,7 +22,7 @@ export default function Layout(props) {
     <Container>
       <Breadcrumb
         paths={[
-          "Mengenal kami",
+          "Profil",
           breadcrumb
         ]}
       />

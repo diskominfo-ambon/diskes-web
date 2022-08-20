@@ -149,7 +149,7 @@ export default function Navbar() {
                 menus={[
                   { to: '/profil/tentang', text: 'Tentang Kami'},
                   // { to: '/profil/sasaran', text: 'Sasaran'},
-                  // { to: '/profil/pegawai', text: 'Profil Pegawai'},
+                  { to: '/profil/pegawai', text: 'Profil Pegawai'},
                 ]}
               />
             </NavbarItem>

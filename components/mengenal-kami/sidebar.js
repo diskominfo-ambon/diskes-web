@@ -73,7 +73,10 @@ export default function Sidebar() {
 
       <SidebarContent>
         <SidebarItem active={/tentang/.test(router.pathname)}>
-          <Link href="/mengenal-kami/tentang" passHref>Tentang</Link>
+          <Link href="/profil/tentang" passHref>Tentang</Link>
+        </SidebarItem>
+        <SidebarItem active={/profil/.test(router.pathname)}>
+          <Link href="/profil/pegawai" passHref>Pegawai</Link>
         </SidebarItem>
         {/* <SidebarItem active={/tugas/.test(router.pathname)}>
           <Link href="/mengenal-kami/tugas" passHref>Tugas dan fungsi</Link>
